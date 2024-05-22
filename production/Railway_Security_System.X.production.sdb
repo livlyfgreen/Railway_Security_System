@@ -1,0 +1,189 @@
+[p LITE_MODE AUTOSTATIC PIC14 PICREGULAR PICMID ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 16F876A ]
+[d frameptr 6 ]
+"1 F:\quest\Projects\PIC16F876A\Railway_Security_System.X\analogHeader.h
+[v _analogInit analogInit `(v  1 e 1 0 ]
+"7
+[v _analogRead analogRead `(s  1 e 2 0 ]
+"62 C:\Program Files (x86)\Microchip\xc8\v1.36\sources\common\float.c
+[v ___ftpack __ftpack `(f  1 e 3 0 ]
+"86 C:\Program Files (x86)\Microchip\xc8\v1.36\sources\common\ftadd.c
+[v ___ftadd __ftadd `(f  1 e 3 0 ]
+"33 C:\Program Files (x86)\Microchip\xc8\v1.36\sources\common\strcmp.c
+[v _strcmp strcmp `(i  1 e 2 0 ]
+"6 C:\Program Files (x86)\Microchip\xc8\v1.36\sources\pic\eeprom.c
+[v _eecpymem eecpymem `(v  1 e 1 0 ]
+"39
+[v _memcpyee memcpyee `(v  1 e 1 0 ]
+"47 F:\quest\Projects\PIC16F876A\Railway_Security_System.X\main.c
+[v _main main `(i  1 e 2 0 ]
+"97
+[v _gpioInit gpioInit `(v  1 e 1 0 ]
+"103
+[v _riskCalling riskCalling `(v  1 e 1 0 ]
+"114
+[v _riskAlarm riskAlarm `(v  1 e 1 0 ]
+"122
+[v _threatCalling threatCalling `(v  1 e 1 0 ]
+"132
+[v _safeCalling safeCalling `(v  1 e 1 0 ]
+"142
+[v _servoRotate90 servoRotate90 `(v  1 e 1 0 ]
+"149
+[v _servoRotate0 servoRotate0 `(v  1 e 1 0 ]
+"1 F:\quest\Projects\PIC16F876A\Railway_Security_System.X\SerialHeader.h
+[v _serialInit serialInit `(v  1 e 1 0 ]
+"9
+[v _serialPrint serialPrint `(v  1 e 1 0 ]
+"20
+[v _serialRead serialRead `(v  1 e 1 0 ]
+"270 C:\Program Files (x86)\Microchip\xc8\v1.36\include\pic16f876a.h
+[v _PORTC PORTC `VEuc  1 e 1 @7 ]
+"839
+[v _RCSTA RCSTA `VEuc  1 e 1 @24 ]
+"933
+[v _TXREG TXREG `VEuc  1 e 1 @25 ]
+"939
+[v _RCREG RCREG `VEuc  1 e 1 @26 ]
+"1020
+[v _ADRESH ADRESH `VEuc  1 e 1 @30 ]
+"1026
+[v _ADCON0 ADCON0 `VEuc  1 e 1 @31 ]
+"1190
+[v _TRISA TRISA `VEuc  1 e 1 @133 ]
+"1300
+[v _TRISC TRISC `VEuc  1 e 1 @135 ]
+"1729
+[v _TXSTA TXSTA `VEuc  1 e 1 @152 ]
+"1809
+[v _SPBRG SPBRG `VEuc  1 e 1 @153 ]
+"1948
+[v _ADRESL ADRESL `VEuc  1 e 1 @158 ]
+"1954
+[v _ADCON1 ADCON1 `VEuc  1 e 1 @159 ]
+"2224
+[v _GO GO `VEb  1 e 0 @250 ]
+"2300
+[v _RC0 RC0 `VEb  1 e 0 @56 ]
+"2302
+[v _RC1 RC1 `VEb  1 e 0 @57 ]
+"2304
+[v _RC2 RC2 `VEb  1 e 0 @58 ]
+"2306
+[v _RC3 RC3 `VEb  1 e 0 @59 ]
+"2308
+[v _RC4 RC4 `VEb  1 e 0 @60 ]
+"2310
+[v _RC5 RC5 `VEb  1 e 0 @61 ]
+"2326
+[v _RCIF RCIF `VEb  1 e 0 @101 ]
+"2464
+[v _TRMT TRMT `VEb  1 e 0 @1217 ]
+"32 F:\quest\Projects\PIC16F876A\Railway_Security_System.X\main.c
+[v _access access `s  1 e 2 0 ]
+"33
+[v _temp temp `uc  1 e 1 0 ]
+"34
+[v _UID UID `[20]uc  1 e 20 0 ]
+"35
+[v _INID INID `[20]uc  1 e 20 0 ]
+"37
+[v _reading1 reading1 `s  1 e 2 0 ]
+[v _reading2 reading2 `s  1 e 2 0 ]
+"47
+[v _main main `(i  1 e 2 0 ]
+{
+"95
+} 0
+"122
+[v _threatCalling threatCalling `(v  1 e 1 0 ]
+{
+"130
+} 0
+"33 C:\Program Files (x86)\Microchip\xc8\v1.36\sources\common\strcmp.c
+[v _strcmp strcmp `(i  1 e 2 0 ]
+{
+[v strcmp@s1 s1 `*.4DCCuc  1 a 1 wreg ]
+"35
+[v strcmp@r r `c  1 a 1 4 ]
+"33
+[v strcmp@s1 s1 `*.4DCCuc  1 a 1 wreg ]
+[v strcmp@s2 s2 `*.4DCCuc  1 p 1 0 ]
+[v strcmp@s1 s1 `*.4DCCuc  1 a 1 5 ]
+"42
+} 0
+"20 F:\quest\Projects\PIC16F876A\Railway_Security_System.X\SerialHeader.h
+[v _serialRead serialRead `(v  1 e 1 0 ]
+{
+[v serialRead@str str `*.4uc  1 a 1 wreg ]
+"22
+[v serialRead@i i `i  1 a 2 2 ]
+"20
+[v serialRead@str str `*.4uc  1 a 1 wreg ]
+"22
+[v serialRead@str str `*.4uc  1 a 1 4 ]
+"34
+} 0
+"1
+[v _serialInit serialInit `(v  1 e 1 0 ]
+{
+"7
+} 0
+"132 F:\quest\Projects\PIC16F876A\Railway_Security_System.X\main.c
+[v _safeCalling safeCalling `(v  1 e 1 0 ]
+{
+"140
+} 0
+"149
+[v _servoRotate0 servoRotate0 `(v  1 e 1 0 ]
+{
+"155
+} 0
+"103
+[v _riskCalling riskCalling `(v  1 e 1 0 ]
+{
+"112
+} 0
+"142
+[v _servoRotate90 servoRotate90 `(v  1 e 1 0 ]
+{
+"148
+} 0
+"9 F:\quest\Projects\PIC16F876A\Railway_Security_System.X\SerialHeader.h
+[v _serialPrint serialPrint `(v  1 e 1 0 ]
+{
+[v serialPrint@str str `*.24uc  1 a 1 wreg ]
+"11
+[v serialPrint@i i `i  1 a 2 0 ]
+"9
+[v serialPrint@str str `*.24uc  1 a 1 wreg ]
+"11
+[v serialPrint@str str `*.24uc  1 a 1 2 ]
+"18
+} 0
+"114 F:\quest\Projects\PIC16F876A\Railway_Security_System.X\main.c
+[v _riskAlarm riskAlarm `(v  1 e 1 0 ]
+{
+"120
+} 0
+"97
+[v _gpioInit gpioInit `(v  1 e 1 0 ]
+{
+"101
+} 0
+"7 F:\quest\Projects\PIC16F876A\Railway_Security_System.X\analogHeader.h
+[v _analogRead analogRead `(s  1 e 2 0 ]
+{
+"9
+[v analogRead@result result `s  1 a 2 2 ]
+"7
+[v analogRead@channel channel `i  1 p 2 0 ]
+"22
+} 0
+"1
+[v _analogInit analogInit `(v  1 e 1 0 ]
+{
+"6
+} 0
